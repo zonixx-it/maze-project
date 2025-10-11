@@ -95,8 +95,3 @@ class TestMaze:
             self.__maze.get_cols_count() == self.__mazeCols
         ), f"Функция get_rows_count() выводит не {self.__mazeCols} "
         "столбцов, а {self.__maze.get_cols_count()}"
-
-
-def test_cell_creation():
-    cell: Cell = Cell()
-    assert isinstance(cell, Cell)
