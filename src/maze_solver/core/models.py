@@ -10,10 +10,10 @@ class Maze:
             [Cell() for _ in range(colsCount)] for _ in range(rowsCount)
         ]
 
-    def get_rows_count(self) -> int:
+    def get_width(self) -> int:
         return self.__rowsCount
 
-    def get_cols_count(self) -> int:
+    def get_height(self) -> int:
         return self.__colsCount
 
     def get_cell(self, rowIndex, colIndex) -> Cell:
