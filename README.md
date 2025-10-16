@@ -1,4 +1,4 @@
-# Maze Solver [WORK IN PROGRESS]
+# Maze Project [WORK IN PROGRESS]
 
 Генератор и решатель лабиринтов с визуализацией в реальном времени.
 
